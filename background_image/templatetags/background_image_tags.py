@@ -1,9 +1,10 @@
-
 from django import template
-from ..models import BackgroundImage
+from background_image.models import BackgroundImage
+
 register = template.Library()
 
-def background_image_url():
+def background_image_url(void):
+    """ """
     return BackgroundImage.objects.get().img.url
 
 register.simple_tag(background_image_url)
