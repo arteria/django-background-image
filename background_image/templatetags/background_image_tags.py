@@ -6,4 +6,4 @@ register = template.Library()
 def background_image_url():
     return BackgroundImage.objects.get().url
 
-register.simple_tag(background_image)
+register.simple_tag(background_image_url)
