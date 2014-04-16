@@ -3,7 +3,7 @@ from background_image.models import BackgroundImage
 
 register = template.Library()
 
-def background_image_url(void):
+def background_image_url():
     """ """
     return BackgroundImage.objects.get().img.url
 
