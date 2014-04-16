@@ -18,7 +18,12 @@ Add an image using the admin site, http://localhost/admin/background_image/backg
 
 	
 
-Credits and kudos
+Credits and Kudos
 =================
 
 Single pattern taken from https://gist.github.com/senko/5028413. 
+
+Known Issues, Notes and TODOs
+===
+* CSS backgound-size: cover does not work in IE8.
+* The uploaded image must be optimized before uploading. Not downsampling, compression, .. will be applied.
