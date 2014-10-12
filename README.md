@@ -21,7 +21,7 @@ Add an image using the admin site, http://localhost/admin/background_image/backg
 Credits and Kudos
 =================
 
-Single pattern taken from https://gist.github.com/senko/5028413. 
+Singleton pattern taken from https://gist.github.com/senko/5028413. 
 
 Known Issues, Notes and TODOs
 ===
