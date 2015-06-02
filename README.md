@@ -6,9 +6,15 @@ Allow to set a background image from the admin site.
 Installation/Usage
 ===
 
-pip install -e git+git://github.com/philippeowagner/django-background-image.git#egg=background_image
+Get the [latest stable release from the Python package index](https://pypi.python.org/pypi/django-background-image) using pip
 
-Add ``background_image`` to your project settings' ``INSTALLED_APPS``.
+	pip install django-background-image
+
+or the latest development version from Github using 
+
+	pip install -e git+git://github.com/arteria/django-background-image.git#egg=background_image
+	
+Afterwards, add ``background_image`` to your project settings' ``INSTALLED_APPS``.
 
 In your e.g. ``base.html`` load the template tag using ``{% load background_image_tags %}``, then do something like
 
