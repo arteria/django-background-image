@@ -14,7 +14,7 @@ or the latest development version from Github using
 
 	pip install -e git+git://github.com/arteria/django-background-image.git#egg=background_image
 	
-Afterwards, add ``background_image`` to your project settings' ``INSTALLED_APPS``.
+Afterwards, add ``background_image`` to your project settings' ``INSTALLED_APPS`` and create your tables.
 
 In your e.g. ``base.html`` load the template tag using ``{% load background_image_tags %}``, then do something like
 
